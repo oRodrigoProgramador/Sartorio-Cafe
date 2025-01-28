@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+}
+.menucompleto{
+    width: 100%;
+    background-color: #d6c8ad;
+    margin: 0;
+    height: 135px;
+    justify-content: space-between;
+    display: flex;
+    background: linear-gradient(20deg, #d6c8ad, #d6c8ad, #686051);
+
+}
+#logo{
+    width: 130px;
+    height: auto;
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    border: solid 2px #d6c8ad;
+    margin: 2px;
+    border-radius:10px;
+    background-color: #c4b18b;
+}
+nav ul{
+    display: flex;
+    margin-left: 21em;
+}
+nav li{
+    list-style: none;
+}
+.menumobile{
+    display: none;
+}
+nav a:hover{
+    background-color: #d6c8ad;
+}
+.perfilecart{
+    display: flex;
+    justify-content: right;
+    flex: 2;
+    margin-top: 0;
+
+}
+.perfilecart ul{
+margin-top: 0;
+}
+.perfilecart a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #918163;
+    border-radius: 15px;
+}
+.perfilecart li {
+    list-style: none;
+    padding: 15px;
+}
+#carrinhoco, #perfilpic{
+    width: 30px;
+    height: 30px;
+}
+.cafetext{
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 2.5em;
+    margin-left: 20em;
+    font-family: serif;
+}
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+}
+.cafefoto{
+    width:560px;
+height: 480px;
+margin-top: 5px;
+margin-left: 5px;
+border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px
+}
+.content{
+    background-color: white;
+    width: 990px;
+    margin-left: 21em;
+    height: 490px;
+    margin-top: 10em;
+    display: flex;
+    border-radius: 15px;
+}
+.content p{
+    font-size:15px;
+    margin-top: 0;
+    text-align: justify;
+    margin: 3px;
+    margin-right: 9px;
+    font-family: serif;
+}
+.content h2{
+    color: black;
+    margin-bottom: 5px;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+@media screen and (min-width:2550px){
+  body  ,html {
+    background-color: brown;
+        background-image: none;
+        background: linear-gradient(180deg,  brown , rgb(24, 1, 1));
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    .content{
+        width: 1500px;
+        height: 800px;
+    }
+    .titulo p{
+        font-size: 25px;
+    }
+    .titulo h2{
+        font-size: 40px;
+        margin-top: 2px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:1026px){
+body{
+    background-size:auto;
+}
+    .menucompleto{
+height: 200px;
+}
+
+    .content{
+    margin-left:12px;
+}
+nav ul, .cafetext{
+    margin-left:0;
+}
+p{
+    font-size: 21px;
+}
+.content{
+    width: 890px;
+    height:570px;
+}
+.cafefoto{
+    margin-top:50px;    
+}
+}
+@media screen and (max-width:770px){
+    body{
+        background-size:auto;
+    }
+        .menucompleto{
+    height: 200px;
+    }
+    
+        .content{
+        margin-left:12px;
+    }
+    nav ul, .cafetext{
+        margin-left:0;
+    }
+    p{
+        font-size: 21px;
+    }
+    .content{
+        width: 740px;
+        height:570px;
+        margin-top: 30px;
+    }
+    .cafefoto{
+        margin-top:50px; 
+        width: 320px;
+        height: 300px;   
+    }
+    nav a{
+        font-size: 12px;
+    }
+    .cafetext h1{
+        font-size: 18px;
+
+    }
+.perfilecart a{
+    font-size: 13px;
+}
+#perfilpic, #carrinhoco{
+    height: 20px;
+    margin-right: 8px;
+}
+}
+@media screen and (max-width:450px){
+    body,html{
+        margin:0;   
+        background-image: url("images/backgroundmobile.jpg");
+        background-repeat: no-repeat;
+      
+    }
+ 
+        .menucompleto{
+    height: 200px;
+    }
+    header{
+        width:755px;
+    }
+        .content{
+        margin-left:12px;
+    }
+    nav ul, .cafetext{
+        margin-left:0;
+    }
+    p{
+        font-size: 21px;
+    }
+    .content{
+        width: 720px;
+        height:570px;
+        margin-top: 30px;
+    }
+    .cafefoto{
+        margin-top:50px; 
+        width: 320px;
+        height: 300px;   
+    }
+    nav a{
+        font-size: 19px;
+    }
+    .cafetext h1{
+        font-size: 25px;
+        width: 320px;
+
+    }
+.perfilecart a{
+    font-size: 18px;
+}
+#perfilpic, #carrinhoco{
+    height: 20px;
+    margin-right: 8px;
+}
+}
