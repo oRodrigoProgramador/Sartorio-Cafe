@@ -209,7 +209,7 @@ p{
     margin-right: 8px;
 }
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:515px){
     body,html{
         margin:0;   
         background-image: url("images/backgroundmobile.jpg");
